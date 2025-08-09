@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", sans-serif;
+  line-height: 1.6;
+  background: #f4f4f4;
+  color: #333;
+  scroll-behavior: smooth;
+}
+
+.vsservices-header {
+  opacity: 0;
+}
+
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: auto;
+  padding: 20px;
+}
+
+.navbar {
+  background-color: white;
+  padding: 0 0;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding:0px;
+}
+
+.servicesDiv{
+  display : flex;	
+}
+
+.servicesDiv1{
+  flex : auto;	
+}
+
+.servicesDiv2{
+  flex : auto;		
+}
+
+.nav-logo {
+   width: 100%;
+   max-width: 150px;
+   height: auto;
+}
+
+.nav-logo:hover{
+   cursor : pointer;	
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav-links li a:hover {
+  text-decoration: underline;
+}
+
+section {
+  padding: 60px 0;
+  background: white;
+  margin-top: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.home {
+  background: white;
+  text-align: center;
+}
+
+.home h1 {
+  font-size: 2.5rem;
+}
+
+.services ul {
+  list-style: square;
+  padding-left: 20px;
+  margin-top: 10px;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 30px;
+  font-size: 0.9rem;
+}
+
+.social-icons a {
+  display: inline-block;
+  margin: 0 12px;
+  font-size: 20px;
+  transition: transform 0.2s;
+}
+
+.social-icons a .fa-facebook-f {
+  color: #1877f2; /* Facebook Blue */
+}
+
+.social-icons a .fa-twitter {
+  color: #1da1f2; /* Twitter Blue */
+}
+
+.social-icons a .fa-instagram {
+  color: #e1306c; /* Instagram Pink */
+}
+
+.social-icons a .fa-linkedin-in {
+  color: #0077b5; /* LinkedIn Blue */
+}
+
+.social-icons a:hover {
+  transform: scale(1.2);
+}
